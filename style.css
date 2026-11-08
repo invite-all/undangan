@@ -521,6 +521,7 @@ body {
     object-fit: fill;
     z-index: 2;          
     pointer-events: none;
+    opacity: 0.9 !important;
 }
 
 /* Isi konten di Dalam Bingkai */
@@ -596,7 +597,9 @@ body {
     height: 100%;
     border-radius: 0 0 0 0;
     z-index: 5;
+    opacity: 0.8 !important;
 }
+
 .konten-kapsul {
     position: relative;
     top: -1rem; /* Ubah dari -1.5rem ke 0 agar posisi awal tidak bergeser aneh */
